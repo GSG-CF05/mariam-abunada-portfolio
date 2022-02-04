@@ -1,5 +1,105 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
-.myname{
-    padding:2% 2%;
+.myname {
+  padding: 2% 2%;
 }
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+.bg-img {
+  background-image: url("./bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 105vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.myname {
+  position: absolute;
+  top: 1%;
+  display: block;
+}
+.name {
+  color: #741037;
+}
+.role {
+  color: #178984;
+  font-size: 20px;
+}
+.aboutme {
+  display: inline-block;
+  position: absolute;
+  top: 18%;
+  text-align: initial;
+}
+#box1 {
+  display: flex;
+  border-radius: 3px 12px;
+  background: #741037;
+  padding: 20px;
+  width: 90px;
+  height: 15px;
+  font-weight: bold;
+  font-size: 17px;
+  text-align: center;
+  color: #fbf3e4;
+  align-content: space-around;
+  align-items: center;
+  justify-content: center;
+}
+
+#box2 {
+  display: flex;
+  border-radius: 3px 12px;
+  background: #741037;
+  padding: 20px;
+  width: 90px;
+  height: 15px;
+  font-weight: bold;
+  font-size: 17px;
+  text-align: center;
+  color: #fbf3e4;
+  align-content: space-around;
+  align-items: center;
+  justify-content: center;
+}
+#box3 {
+  display: flex;
+  border-radius: 3px 12px;
+  background: #741037;
+  padding: 20px;
+  width: 90px;
+  height: 15px;
+  font-weight: bold;
+  font-size: 13px;
+  text-align: center;
+  color: #fbf3e4;
+  align-items: center;
+  justify-content: center;
+}
+
+.myskills {
+  display: inline-block;
+  position: absolute;
+  top: 42%;
+  text-align: initial;
+}
+.contact {
+  display: inline-block;
+  position: absolute;
+  top: 77%;
+  text-align: initial;
+}
+
+.myicon {
+  display: inline-block;
+  color: #178984;
+  margin-right: 5;
+  align-content: space-around;
+}
