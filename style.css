@@ -13,8 +13,8 @@ body {
 }
 .container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /*justify-content: center;*/
+  align-items: flex-start;
   margin: 3vh;
   flex-direction: column;
 }
@@ -33,11 +33,11 @@ body {
 }
 .aboutme {
   display: flex;
-  justify-content: center;
-  align-items: center;
+ /* justify-content: center;*/
+  align-items: flex-start;
   flex-direction: column;
   max-width: 35%;
-  text-align: center;
+  text-align: start;
   font-weight: 450;
   margin: 1vh;
 }
@@ -55,25 +55,26 @@ body {
 }
 .myskills{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /*justify-content: center;*/
+  align-items: flex-start;
   flex-direction: column;
   max-width: 50%;
-  text-align: center;
+  text-align: start;
   font-weight: 450;
   margin: 1vh;
 
 }
 .list{
 list-style: none;
+
 }
 .contact{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /*justify-content: center;*/
+  align-items: flex-start;
   flex-direction: column;
   max-width: 50%;
-  text-align: center;
+  text-align: start;
   font-weight: 450;
   margin: 1vh;
 }
